@@ -33,7 +33,7 @@ class App extends React.Component {
   }
   async componentDidMount() {
     let response = await this.fetchData();
-    this.setState({ data: response });
+    this.setState({data: response});
   }
 
   fetchData = async () => {
@@ -44,28 +44,57 @@ class App extends React.Component {
   };
 
   render() {
+      const options = {
+            responsive: true,
+            plugins: {
+              legend: {
+                position: 'top',
+              },
+              title: {
+                display: true,
+                text: 'Chart.js Line Chart',
+              },
+            },
+          };
     let x_axis = this.state.data.reduce((prev, current) => {
       return [...prev, current.timeStr];
     },[]);
     let y_axis = this.state.data.reduce((prev, current) => {
       return [...prev, current.value];
     }, []);
+
+    console.log("X-Axis", x_axis);
     console.log("Y-Axis", y_axis);
+
+    const data = {
+      type: 'line',
+      labels: x_axis,
+      datasets: [
+        {
+          label: 'Dataset',
+          data: y_axis,
+          borderColor: 'rgb(255, 99, 132)',
+          backgroundColor: 'rgba(255, 99, 132, 0.5)',
+        }
+      ],
+    };
+
     return (
-      <div>
-        <table>
-          <tr>
-            <th>Date</th>
-            <th>Value</th>
-          </tr>
-          {this.state.data.map((item) => (
-            <tr>
-              <td>{item.timeStr}</td>
-              <td>{item.value}</td>
-            </tr>
-          ))}
-        </table>
-      </div>
+      <Line options={options} data={data} />
+      // <div>
+      //   <table>
+      //     <tr>
+      //       <th>Date</th>
+      //       <th>Value</th>
+      //     </tr>
+      //     {this.state.data.map((item) => (
+      //       <tr>
+      //         <td>{item.timeStr}</td>
+      //         <td>{item.value}</td>
+      //       </tr>
+      //     ))}
+      //   </table>
+      // </div>
     );
   }
 }
