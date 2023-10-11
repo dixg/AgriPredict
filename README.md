@@ -1,11 +1,57 @@
-# Getting Started with Create React App
+# AgriPredict: Commodity Price Prediction for Indian Farmers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application to empower Indian farmers with predictive insights into agricultural commodity prices using advanced ML.
 
-## Available Scripts
+![Main Screen](/screenshots/main_screen.png)
+![Prediction Screen](/screenshots/prediction_screen.png)
 
+## Objective
+- **Access:** Ensure farmers have access to real-time and historical commodity prices.
+- **Predict:** Provide price predictions (daily, weekly, monthly) using LSTM ML models.
+
+## Challenges
+1. **Data Access:** Technological barriers prevent farmers from utilizing available governmental data.
+2. **Price Fluctuations:** Lack of predictive insights leads to financial instability.
+
+## Machine Learning Model
+- **Model:** LSTM, chosen for its proficiency in time-series data and minimizing MSE.
+- **Data Source:** National Agriculture Market.
+- **Tech Stack:** Python, Keras, TensorFlow, Pandas, React, and Django.
+
+## Web Application Architecture
+- **Front-end:** User-friendly UI built with React.
+- **Back-end:** Django, facilitating interaction with the LSTM model.
+- **Data Flow:** LSTM model training with 80% of data, tested against 20%, and refined to reduce MAE.
+
+### Web Development
+- **Front-End**: Developed using React.
+- **Back-End**: Utilized Django for server-side interactions.
+- **Visualization**: Employed Matlab Plot to graphically represent the predicted results.
+
+## Frameworks and Technologies
+- **Python**: Development and training of LSTM model.
+- **React**: Building the front end of the web app.
+- **Django**: Backend development and server construction.
+- **Keras**: Building and loading sequential LSTM models.
+- **TensorFlow**: ML and AI model development.
+- **Pandas**: Data manipulation and analysis.
+- **Scikit-Learn**: Normalizing columns of pandas data frames for ML models.
+- **NumPy**: Numerical computing.
+- **Matplotlib**: Creating static, animated, and interactive visualizations in Python.
+
+## Data Visualization
+Utilizing Matplotlib, price data and predictions are presented in a user-friendly graphical format.
+
+![Data Visualization](/screenshots/data_visualization.png)
+
+
+## Getting Started with AgriPredict
+1. Clone the [GitHub repository](#).
+2. Install dependencies: Python, Keras, TensorFlow, Pandas, React, and Django.
+3. Navigate to the directory and run the application.
+
+## To run the project - 
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
