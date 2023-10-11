@@ -15,15 +15,10 @@ A web application to empower Indian farmers with predictive insights into agricu
 
 ## Machine Learning Model
 - **Model:** LSTM, chosen for its proficiency in time-series data and minimizing MSE.
-- **Data Source:** National Agriculture Market.
+- **Data Source:** The dataset was parsed from the [Indian National Agriculture Market website](https://enam.gov.in/)
 - **Tech Stack:** Python, Keras, TensorFlow, Pandas, React, and Django.
-
-## Web Application Architecture
-- **Front-end:** User-friendly UI built with React.
-- **Back-end:** Django, facilitating interaction with the LSTM model.
-- **Data Flow:** LSTM model training with 80% of data, tested against 20%, and refined to reduce MAE.
-
-### Web Development
+  
+## Web Development
 - **Front-End**: Developed using React.
 - **Back-End**: Utilized Django for server-side interactions.
 - **Visualization**: Employed Matlab Plot to graphically represent the predicted results.
