@@ -6,6 +6,7 @@ A web application to empower Indian farmers with predictive insights into agricu
 - **Access:** Ensure farmers have access to real-time and historical commodity prices.
 - **Predict:** Provide price predictions (daily, weekly, monthly) using LSTM ML models.
 
+![Price Prediction](/images/cottonPricePredictionMonthly.png)
 ## Challenges
 1. **Data Access:** Technological barriers prevent farmers from utilizing available governmental data.
 2. **Price Fluctuations:** Lack of predictive insights leads to financial instability.
