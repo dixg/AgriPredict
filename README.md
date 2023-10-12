@@ -2,8 +2,6 @@
 
 A web application to empower Indian farmers with predictive insights into agricultural commodity prices using advanced ML.
 
-![Prediction Screen](/screenshots/cottonPricePredectionDaily.png)
-
 ## Objective
 - **Access:** Ensure farmers have access to real-time and historical commodity prices.
 - **Predict:** Provide price predictions (daily, weekly, monthly) using LSTM ML models.
