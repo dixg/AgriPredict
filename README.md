@@ -2,8 +2,7 @@
 
 A web application to empower Indian farmers with predictive insights into agricultural commodity prices using advanced ML.
 
-![Main Screen](/screenshots/main_screen.png)
-![Prediction Screen](/screenshots/prediction_screen.png)
+![Prediction Screen](/screenshots/cottonPricePredectionDaily.png)
 
 ## Objective
 - **Access:** Ensure farmers have access to real-time and historical commodity prices.
@@ -37,7 +36,7 @@ A web application to empower Indian farmers with predictive insights into agricu
 ## Data Visualization
 Utilizing Matplotlib, price data and predictions are presented in a user-friendly graphical format.
 
-![Data Visualization](/screenshots/data_visualization.png)
+![Data Visualization](/images/cottonPricePredictionDaily.png)
 
 
 ## Getting Started with AgriPredict
