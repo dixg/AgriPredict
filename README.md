@@ -1,12 +1,13 @@
 # AgriPredict: Commodity Price Prediction for Indian Farmers
 
-A web application to empower Indian farmers with predictive insights into agricultural commodity prices using advanced ML.
+A web application to empower Indian farmers with predictive insights into agricultural commodity prices using advanced ML. Read more -> 
+[Publication][https://link-url-here.org](https://www.researchgate.net/publication/363376035_Machine_Learning_Price_Prediction_of_Agricultural_Produces_for_Indian_Farmers_using_LSTM)
 
 ## Objective
 - **Access:** Ensure farmers have access to real-time and historical commodity prices.
 - **Predict:** Provide price predictions (daily, weekly, monthly) using LSTM ML models.
 
-![Price Prediction](/images/cottonPricePredictionMonthly.png)
+![Price Prediction](/images/cottonPricePredictionMonthly.png]
 ## Challenges
 1. **Data Access:** Technological barriers prevent farmers from utilizing available governmental data.
 2. **Price Fluctuations:** Lack of predictive insights leads to financial instability.
@@ -36,7 +37,6 @@ A web application to empower Indian farmers with predictive insights into agricu
 Utilizing Matplotlib, price data and predictions are presented in a user-friendly graphical format.
 
 ![Data Visualization](/images/cottonPricePredictionDaily.png)
-
 
 ## Getting Started with AgriPredict
 1. Clone the [GitHub repository](#).
