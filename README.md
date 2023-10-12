@@ -1,7 +1,7 @@
 # AgriPredict: Commodity Price Prediction for Indian Farmers
 
-A web application to empower Indian farmers with predictive insights into agricultural commodity prices using advanced ML. Published in International Journal of Multidisciplinary Research and Growth Evaluation, Volume 03, Issue 05, September-October 2022.  
-[DOI Link](https://www.researchgate.net/publication/363376035_Machine_Learning_Price_Prediction_of_Agricultural_Produces_for_Indian_Farmers_using_LSTM)
+A web application to empower Indian farmers with predictive insights into agricultural commodity prices using advanced ML. Published in International Journal of Multidisciplinary Research and Growth Evaluation, Volume 03, Issue 05, September-October 2022
+[Link](https://www.researchgate.net/publication/363376035_Machine_Learning_Price_Prediction_of_Agricultural_Produces_for_Indian_Farmers_using_LSTM)
 
 ## Objective
 - **Access:** Ensure farmers have access to real-time and historical commodity prices.
